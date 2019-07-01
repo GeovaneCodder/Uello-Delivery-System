@@ -20,5 +20,9 @@ Após feito isso, rode as migrations para criação do banco de dados.
 ```bash
 php artisan migrate:fresh
 ```
-
 Agora no navegador vá até o endereço `http://localhost:8080`
+##### Testes
+Para executar os testes detro do container da aplicação digite o seguinte comando:
+```bash
+vendor/bin/phpunit
+```
