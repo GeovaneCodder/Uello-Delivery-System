@@ -21,7 +21,7 @@
         </div>
         <div class="div-buttons">
             <button class="btn-home" data-toggle="modal" data-target=".sendfile-modal"> Importar Arquivos </button>
-            <button class="btn-home"> Arquivos Importados </button>
+            <button class="btn-home goToList"> Arquivos Importados </button>
         </div>  
     </div>  
 </div>
