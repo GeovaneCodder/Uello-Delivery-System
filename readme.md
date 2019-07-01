@@ -12,6 +12,15 @@ Acesse o container da aplicação
 ```bash
 docker exec -it uello-php /bin/bash
 ```
+Crier o arquivo .env
+```bash
+cp .env.example .env
+```
+Adicione a chave de API do google na ultima linha do aquivo .env no parametro : GOOGLE_GEOENCODING_KEY
+
+------------
+
+
 Baixe as dependencias do Laravel
 ```bash
 composer update
